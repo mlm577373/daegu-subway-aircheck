@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "57 station IDs",
+    "unique station-date-hour keys",
+    "monthly row and valid counts reconcile",
+    "paired counts reconcile",
+    "baseline counts reconcile",
+    "nonnegative missing-row counts",
+    "all PNG decode"
+  ],
+  "figures_png": 7,
+  "figures_svg": 7,
+  "visual_review": "Verified heatmap labels, legend endpoints, distribution labels and disconnected collection gap; corrected legend and coverage axis labels."
+}

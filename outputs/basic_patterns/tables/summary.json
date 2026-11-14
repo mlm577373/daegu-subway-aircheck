@@ -1,0 +1,10 @@
+{
+  "returned_rows": 2173944,
+  "expected_hours": 2203848,
+  "provisional_valid_n": 2143229,
+  "paired_n": 1965991,
+  "stations": 57,
+  "collected_months": 53,
+  "baseline_valid_n": 1461049,
+  "baseline_expected_hours": 1499328
+}
