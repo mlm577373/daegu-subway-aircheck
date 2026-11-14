@@ -1,0 +1,30 @@
+# Observations, generated datasets, metadata downloads, and local caches
+/data/*
+!/data/_scripts/
+!/data/README.md
+!/data/mapping/
+/data/mapping/*
+!/data/mapping/README.md
+!/data/merged/
+/data/merged/*
+!/data/merged/README.md
+/subway_air_check/
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and machine configuration
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.aws/
+.DS_Store
+Thumbs.db
