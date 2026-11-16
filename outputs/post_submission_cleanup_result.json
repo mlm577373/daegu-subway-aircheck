@@ -1,0 +1,10 @@
+{
+  "retained_dependencies": [
+    "data/_scripts/collect_probe.py",
+    "outputs/inspection_candidates/tables/all_station_metrics.csv"
+  ],
+  "deleted_files": 445,
+  "status": "pass",
+  "archive": "outputs\\_archive\\post_submission_20261116_221002.zip",
+  "verified_survivors": 3325
+}

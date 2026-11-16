@@ -1,0 +1,21 @@
+{
+  "reference_counts_match": true,
+  "cluster_count_min": 29,
+  "explicit_dummy_coefficient_error": 1.5543122344752192e-15,
+  "all_intervals_finite": true,
+  "primary_excluded_station_ids": [
+    "DG_L1_1260",
+    "DG_L1_1420",
+    "DG_L2_2350"
+  ],
+  "station_model_counts": {
+    "adjusted42": 52,
+    "adjusted56": 54,
+    "adjusted70": 55,
+    "clock_minus1": 54,
+    "clock_plus1": 54,
+    "placebo2023": 55,
+    "raw56": 56,
+    "usage56": 54
+  }
+}

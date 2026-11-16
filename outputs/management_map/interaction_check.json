@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "method": "Node VM with minimal DOM mock; not a browser rendering test",
+  "markers": 57,
+  "stationButtons": 57,
+  "modesTested": [
+    "frequency",
+    "persistence",
+    "overlap",
+    "composite"
+  ],
+  "selection": "화원",
+  "filterText": "57개 지점 모두 표시 · 종합점수 산출 57곳 · 선택 조건 반복 시점 25곳",
+  "zoomReset": true
+}

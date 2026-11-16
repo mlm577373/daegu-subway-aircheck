@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "analysis_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "period": "2022-01-01 to 2024-12-31",
+  "stations": 57,
+  "valid_n": 1461049,
+  "coverage_threshold": 0.75,
+  "threshold": 43.15,
+  "timing_cells": 1368,
+  "timing_stations": 44,
+  "no_distinct_timing": 13,
+  "insufficient": 0,
+  "composite_available": 57,
+  "perspective_available": {
+    "frequency": 57,
+    "persistence": 57,
+    "overlap": 57
+  },
+  "checks": [
+    "only three explicit full-year source files read",
+    "leap day included",
+    "unique station hour",
+    "all 57 retained",
+    "equal weights with no imputation"
+  ],
+  "independent_recalculation_passed": true,
+  "independent_cell_rows_verified": 1368,
+  "prior_baseline_rows_matched": 57,
+  "composite_scores_verified": 57,
+  "retired_results_absent": true,
+  "report_links_valid": true,
+  "no_later_year_results_in_current_outputs": true,
+  "interaction_check": {
+    "passed": true,
+    "method": "isolated Node VM with minimal DOM mock",
+    "markers": 57,
+    "modes": 4,
+    "stationSelection": true,
+    "filter": true,
+    "zoomReset": true,
+    "browser_visual_test": false,
+    "browser_limitation": "local-file URL blocked by review tool policy"
+  },
+  "static_figures_reviewed": true
+}

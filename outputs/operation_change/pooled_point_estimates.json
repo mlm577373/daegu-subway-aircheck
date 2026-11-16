@@ -1,0 +1,82 @@
+{
+  "raw56": {
+    "stations": 56,
+    "n": 106390,
+    "point_estimate": 0.09264273055127181,
+    "se": 0.11750726392505947,
+    "ci_low": -0.13767150674184475,
+    "ci_high": 0.3229569678443884,
+    "calendar_week_clusters": 49,
+    "inference": "common calendar-week clustered approximate normal interval; station-specific fixed effects, common covariate slopes"
+  },
+  "adjusted56": {
+    "stations": 54,
+    "n": 93663,
+    "point_estimate": 0.09114492548341743,
+    "se": 0.13291211994285332,
+    "ci_low": -0.16936282960457508,
+    "ci_high": 0.35165268057140997,
+    "calendar_week_clusters": 49,
+    "inference": "common calendar-week clustered approximate normal interval; station-specific fixed effects, common covariate slopes"
+  },
+  "usage56": {
+    "stations": 54,
+    "n": 93663,
+    "point_estimate": 0.08978508806218304,
+    "se": 0.1328669052956933,
+    "ci_low": -0.17063404631737583,
+    "ci_high": 0.35020422244174193,
+    "calendar_week_clusters": 49,
+    "inference": "common calendar-week clustered approximate normal interval; station-specific fixed effects, common covariate slopes"
+  },
+  "adjusted42": {
+    "stations": 52,
+    "n": 68121,
+    "point_estimate": 0.015161305065113836,
+    "se": 0.14943131779682295,
+    "ci_low": -0.27772407781665914,
+    "ci_high": 0.3080466879468868,
+    "calendar_week_clusters": 37,
+    "inference": "common calendar-week clustered approximate normal interval; station-specific fixed effects, common covariate slopes"
+  },
+  "adjusted70": {
+    "stations": 55,
+    "n": 122399,
+    "point_estimate": 0.10751095048155108,
+    "se": 0.1322347611959013,
+    "ci_low": -0.15166918146241548,
+    "ci_high": 0.3666910824255176,
+    "calendar_week_clusters": 61,
+    "inference": "common calendar-week clustered approximate normal interval; station-specific fixed effects, common covariate slopes"
+  },
+  "clock_minus1": {
+    "stations": 54,
+    "n": 93663,
+    "point_estimate": 0.5147495427143803,
+    "se": 0.2614005537277856,
+    "ci_low": 0.0024044574079206127,
+    "ci_high": 1.0270946280208402,
+    "calendar_week_clusters": 49,
+    "inference": "common calendar-week clustered approximate normal interval; station-specific fixed effects, common covariate slopes"
+  },
+  "clock_plus1": {
+    "stations": 54,
+    "n": 93663,
+    "point_estimate": -0.00020485980036619514,
+    "se": 0.17082668582460847,
+    "ci_low": -0.3350251640165988,
+    "ci_high": 0.3346154444158664,
+    "calendar_week_clusters": 49,
+    "inference": "common calendar-week clustered approximate normal interval; station-specific fixed effects, common covariate slopes"
+  },
+  "placebo2023": {
+    "stations": 55,
+    "n": 65320,
+    "point_estimate": 0.20473132642490618,
+    "se": 0.09936911294895909,
+    "ci_low": 0.009967865044946372,
+    "ci_high": 0.399494787804866,
+    "calendar_week_clusters": 33,
+    "inference": "common calendar-week clustered approximate normal interval; station-specific fixed effects, common covariate slopes"
+  }
+}

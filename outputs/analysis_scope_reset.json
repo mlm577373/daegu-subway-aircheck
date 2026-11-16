@@ -1,0 +1,96 @@
+{
+  "analysis_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "removed_derived_files": [
+    {
+      "path": "outputs/recent_validation_management/validation.json",
+      "sha256": "f425d519138df4a82c5f6c900f37cd15de894718ffb3b4041c945457f1dcb909"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/all_station_period_metrics.csv",
+      "sha256": "0770a99dc5bde30bed9a6ee92832166457e7aab418ffa8b00d19081acca819b7"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/balanced_calendar_comparison.csv",
+      "sha256": "fb11bcaa229f3f791a9bcf16d361feecb1ad382b4271137f5e091e454511863f"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/balanced_changes.csv",
+      "sha256": "f9a6b1907c5fc0b37a44c17af3cfa0d4c671734273eaff761adf145dd4fad412"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/candidate_recent_status.csv",
+      "sha256": "e7d7edb4395168373a3403e9be076cb6b1b8695422db8ba03947257f2e8ab571"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/candidate_threshold_sensitivity.csv",
+      "sha256": "1dcc3bc87b85691fc8e782a7d3b9ff1889d05afa6748cab0678f329b80cbf9f4"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/contemporaneous_thresholds.csv",
+      "sha256": "f196f186fe694ea5697c1c6f7b509542d4369935ae928b2c2ed9866e6229391f"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/data_request_checklist.csv",
+      "sha256": "a4957039bde7e04ffe724a20f00dc8a8d4849396f33417c695ae49bceeeb3d9d"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/frozen_reference_thresholds.csv",
+      "sha256": "924a3ab50377e1b5a182c500ea1ef93f7512314b892ab0da5afcdc933e08325e"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/management_hypotheses.csv",
+      "sha256": "62548f018c0ceb9bb164afeab246b2f1f2353ede65e7cd86c2f88efdf693dc8d"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/management_summary.csv",
+      "sha256": "c927dd946b006ce9f34e6e1abe2694538fbab42972b9667ca50090ffe4dcc9f5"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/quality_flags.csv",
+      "sha256": "d9cccde1d0e86df3e719bc4ef5ee1f83bcbd802140b560243aff48428cbf6330"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/recent_source_hour_patterns.csv",
+      "sha256": "217689850158755cd6b021f317885f6fb7976157c5e75b0bcf794ff80561566f"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/reference_month_cuts.csv",
+      "sha256": "66579324e8089f1045a8c6e6d46b3fe4e2c51b7280a609149298b8c318faee85"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/representative_hypotheses.csv",
+      "sha256": "430dc287bd4d0c734f12b00a562d7e083b2bcd3689e390a81f03e011444716b7"
+    },
+    {
+      "path": "outputs/recent_validation_management/tables/station_month_validation.csv",
+      "sha256": "81ab71663e2bffbe6c54ea1313b080d59d7f2757be1654097e81ff5c2e7ad365"
+    },
+    {
+      "path": "outputs/management_conditions/coverage_and_response.csv",
+      "sha256": "707b8dffb6c206af69286a283593cb0ffea7ed6b663ee21448dc8d3500e33ff5"
+    },
+    {
+      "path": "outputs/management_conditions/frozen_thresholds.csv",
+      "sha256": "f7a37d856460ded3cf6736d3b050668a84613ee41a953af2adcf92451c80b373"
+    },
+    {
+      "path": "outputs/management_conditions/rule_metrics.csv",
+      "sha256": "5972ef65206424878ce64176591ff232b7f8ae8e48bb8cf28f3a4f620c5d0e78"
+    },
+    {
+      "path": "outputs/management_conditions/selected_rules_recent.csv",
+      "sha256": "410e480dc0e97ad11b5f3cacb30870356ce0d5affc6b011ebe626d7080e95f86"
+    },
+    {
+      "path": "outputs/management_conditions/validation.json",
+      "sha256": "63721b7eabdf4b9fc3f119e670a6ca5b8a201bae689e32bc448ec0c55225a9f8"
+    }
+  ],
+  "raw_data_deleted": false,
+  "historical_cleanup_backup": "preserved historical record, not an active result",
+  "removed_file_count": 21
+}

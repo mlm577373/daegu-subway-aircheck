@@ -9,6 +9,7 @@
 /data/merged/*
 !/data/merged/README.md
 /subway_air_check/
+/outputs/_archive/
 
 # Python environments and generated files
 __pycache__/

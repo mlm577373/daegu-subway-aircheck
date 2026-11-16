@@ -1,0 +1,762 @@
+{
+  "status": "completed",
+  "date": "2026-11-14",
+  "archive": "outputs/_archive/cleanup_20261114.zip",
+  "backup_verified": true,
+  "before_output_file_count": 219,
+  "planned_remove_count": 102,
+  "planned_remove_output_count": 101,
+  "planned_remove_bytes": 2404932,
+  "files": [
+    {
+      "path": "outputs/basic_patterns/report.md",
+      "bytes": 5452,
+      "sha256": "0f11e96c3961790f11567611b5d8e6ab0f5f43899eeb9e810ed70dfc89888949",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/plan.md",
+      "bytes": 3626,
+      "sha256": "54c662b5af6d2b0e5e75180f4156d9cbfe17955d93d96ed3f3428de46869a46c",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/report.md",
+      "bytes": 14611,
+      "sha256": "d5a6ec32756d517853509daa1ecd9a2d402e9d4300191dac8fa39c0a09790a84",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L1_1160.md",
+      "bytes": 8161,
+      "sha256": "575b10038de8f79583eb5e93fbc1e10610b44db28cc2af2568fec081a4f8d8da",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L1_1190.md",
+      "bytes": 8199,
+      "sha256": "71602f5792ec695e420347833ad09f024569c6a59808d62f2c1e9ba6f3b64356",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L1_1200.md",
+      "bytes": 8202,
+      "sha256": "3f0db823ec3ceb949b8e98a4ec3e7873dd8794aab856b6199ec02e56bc635ca8",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L1_1220.md",
+      "bytes": 8171,
+      "sha256": "91d1dbb6083c3d2fa3fa2e9beea9a389494c77abf6f5de83b1788546eff8b34f",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L1_1290.md",
+      "bytes": 8201,
+      "sha256": "62daf2cf143557fd6558884afca5c7dc4820f19cf2d0f6ce4969acc9ca684c27",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L1_1340.md",
+      "bytes": 8190,
+      "sha256": "5683ed85c200f4f04cab908a154da3f40de1ce8c4f7eff4040a464cf8a709346",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L1_1440.md",
+      "bytes": 8181,
+      "sha256": "8fa4ef9b90fd36d3cde8431be059ef55280f4a60995f0015d7e8f7b873a522a6",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2190.md",
+      "bytes": 8164,
+      "sha256": "ecff23b6bf118e2a27292894fc23cf7d0eddb0766bc35477e618efdaa055f2db",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2210.md",
+      "bytes": 8182,
+      "sha256": "11078e749f5ffbb16b57e071255e6e91f7333633a22eb160ddadaf85757daa42",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2220.md",
+      "bytes": 8200,
+      "sha256": "c879391bdb9d76877634cf85e26091c30fe5327628fa3d2d2aa4b8c10626f096",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2230.md",
+      "bytes": 8168,
+      "sha256": "b928d70f69f7926681da4cd3f8971c26c06629e21b3e7cc29e324539a6d98f69",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2280.md",
+      "bytes": 8174,
+      "sha256": "b82b659a9fbc76a4b5cbb3f8c34869a93247d131e78d6cfd9dee9b71fc9b79d9",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2320.md",
+      "bytes": 8173,
+      "sha256": "7300d3037ac59bd830cd5125faa6d3872ef612c12429ce51323cacdfea6170da",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2350.md",
+      "bytes": 8168,
+      "sha256": "b27849293ce115df65c523cf5117a6337ed8478c14435aa951026b612e01df6e",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2370.md",
+      "bytes": 8161,
+      "sha256": "c744e25a5147fa9fbed45ea544bea3957765a9218f38228186d7576e022b0ac5",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2390.md",
+      "bytes": 8169,
+      "sha256": "cfc491c45ae1b70b1db8b336fdd6f392a1625865e1c8a2f4faecdb2dcea64534",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/station_reports/DG_L2_2410.md",
+      "bytes": 8207,
+      "sha256": "fc0588fc61ffa24871cbe9f0dbca51a9567ffac76b430324ccab7ef8d412df38",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/extended_factors/visual_review_contact_sheet.png",
+      "bytes": 258540,
+      "sha256": "9afc7d29ad3e53587e70aa3139a1fd9c1f4707dcb356233b25e7855bd5979a34",
+      "reason": "검토용 축소 미리보기: 검증 완료"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/00_common_patterns.png",
+      "bytes": 56888,
+      "sha256": "e451d03bb781d9bc128af76773bc20b721c2a4afdde5ae6cabb980766078ff08",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/00_common_patterns.svg",
+      "bytes": 20955,
+      "sha256": "702c7fd3a11858fabb29e0ca0f54ff1f6e214074c1ac429e8651a6c3d10310bf",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/01_candidate_effects.png",
+      "bytes": 44353,
+      "sha256": "8a10a37fda2a5d892fa7ee3e27004d42f7352cf5946b03cddab0643314e1655a",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/01_candidate_effects.svg",
+      "bytes": 13049,
+      "sha256": "0f5f46d85624b8e71879f549b87c1d0a7254b1acc40b1e6d73427e7ec50f8c35",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1160.png",
+      "bytes": 53903,
+      "sha256": "18ed3e9ea7a8c76799cec4675b8dd0ffdb138683daefd0b195438ffd5e54195b",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1160.svg",
+      "bytes": 20158,
+      "sha256": "1e741b2e03499aa3b4014c335723bc2d770279ff178a63577e3d8a232a31f75e",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1190.png",
+      "bytes": 53805,
+      "sha256": "74af366cbe49705d1ca83b1dbf8925794e77c1022fe4557034da18c38e1d5ed9",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1190.svg",
+      "bytes": 19675,
+      "sha256": "11922bc39043c10ffbfa83d5e0665a9215a59d0c7cb7e174e0b22b4cb1cd8667",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1200.png",
+      "bytes": 54473,
+      "sha256": "1ed6710abe0fae40b98f4751f80135e34bc2af9e2a9d1233a0df028eada9821c",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1200.svg",
+      "bytes": 19616,
+      "sha256": "aef08e3bd73418ee1e08e697d9c0ffc07a84698181a0b6b0fc1742f7f41a62cf",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1220.png",
+      "bytes": 52886,
+      "sha256": "87ce2cdf6324759598cc34bb3a9ce06ed240065d428dacb031bc3af1a75a3b62",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1220.svg",
+      "bytes": 19871,
+      "sha256": "a4d6381650b1c60d3dbabeb80eb9291bfa384bd9a0452f31204ffb4900c1898b",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1290.png",
+      "bytes": 53555,
+      "sha256": "6f7bba8dddb1accd346d1d322e2a853d1e6dba791dfbd342295fb1504e7a2587",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1290.svg",
+      "bytes": 20268,
+      "sha256": "33f357eb14ea997e572a83b91a3f7c049b00a52918a517322eb89676d7f382c1",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1340.png",
+      "bytes": 53998,
+      "sha256": "391332cef8ebf0d41c2378607626b9acf0b294b5749c0c337cd3bea9bba6fc3a",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1340.svg",
+      "bytes": 19527,
+      "sha256": "afe1966faa83f16d335ed0520232e8648107d4b9b0eadb4a7dd48534c1996f79",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1440.png",
+      "bytes": 52852,
+      "sha256": "a4ee8614e67326d77b780b214f63d05d72044e1d5ed015eaf301ced0ffe8dc40",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L1_1440.svg",
+      "bytes": 20243,
+      "sha256": "04b6f08aedaaf7036fce3ead8e5ad0f64f159a5bf8becdd494b5bbfee0070cea",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2190.png",
+      "bytes": 53025,
+      "sha256": "9aded219b1f399a68011ae002ebb89a7a412b3aee2886b39af169e9fd5f2db6e",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2190.svg",
+      "bytes": 20688,
+      "sha256": "7a7c16f0bfdc0ee8aa6285109e31219311a5904a398c0b2f220d76e62acb7060",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2210.png",
+      "bytes": 53896,
+      "sha256": "943dcc5b19c0b0e4223ff6dbe8893a9195809c848d46264b319ade9dabb6d542",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2210.svg",
+      "bytes": 20131,
+      "sha256": "407fad570fed37c88b73caad11f78bdb324b2720607d7ed5dae97d14806bb2c6",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2220.png",
+      "bytes": 54579,
+      "sha256": "24b2aa0d6d1f64be26f23f18be85a065bec327c3da364559f7b8a5e3f3533428",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2220.svg",
+      "bytes": 19832,
+      "sha256": "cfd33ea172f01e9af97e0410b7756be6afa0e34ff31440f9bba58f80931f2c4b",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2230.png",
+      "bytes": 54349,
+      "sha256": "d941b40764725fb526e24830b93cc7effa39e4afb51c30a13ad1e04f2b0449f0",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2230.svg",
+      "bytes": 19558,
+      "sha256": "41ba85d2e9f423d318b24eda489c55cb3622f0b55b7dfb87cefdf4a7c9bb1742",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2280.png",
+      "bytes": 53328,
+      "sha256": "bab8fddb7ca43635bc53d663c6d5dc9b8571a58aa7be1c278558dfe80f644689",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2280.svg",
+      "bytes": 19764,
+      "sha256": "b16df7e1bc0fa9aaffcb75e30bb6721b446fd299f1112b002c2b355bfdfb6d1c",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2320.png",
+      "bytes": 53523,
+      "sha256": "ad9de0aa33029c1ea35b3d6e3d2382621cd247d349dae324336fc721f79e1062",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2320.svg",
+      "bytes": 20162,
+      "sha256": "6e317b6013bf5845057fb04d29b83e5d528fc2e0573252c9b8372a501235849c",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2350.png",
+      "bytes": 52928,
+      "sha256": "44fb8af123992e4267b3033ef71cdfaa3a086466e7079549d7b049212d5a3d72",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2350.svg",
+      "bytes": 19618,
+      "sha256": "8a8e931bbd8054a507f9fb42017dd9e62807a13fb55d28e0d08766a219f52735",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2370.png",
+      "bytes": 52603,
+      "sha256": "8fecab0502f6570b2a4e779bc28f6af3cb95ae47674d80bcb1303755fca9a089",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2370.svg",
+      "bytes": 19940,
+      "sha256": "23a8cd88a3effe67a89d5279bcc82d5cc9d6741eb886d54dd85808c13dac95f0",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2390.png",
+      "bytes": 52930,
+      "sha256": "fded1d3caefcdc8ffb9965dd5c571b42f8eefca56e19e5ba732a1727a209202d",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2390.svg",
+      "bytes": 19602,
+      "sha256": "2d6c4770e8af02c5f1d4557e68270ad9a039b30f51dce417adc303ccf2c38c92",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2410.png",
+      "bytes": 54369,
+      "sha256": "9b926a1ccd3f6ae9eb8ef7e1e1d97e0c9cb9a0bb0c09bd4782e054b5fc40a8d0",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/figures/station_DG_L2_2410.svg",
+      "bytes": 20050,
+      "sha256": "b453937ea129f9ec88cd07e2704e775f4d49a66f6cb825748a916f60d33f4ccb",
+      "reason": "기상 추가 전 중간 그림: 최신 그림·원수치·재현 코드 보존"
+    },
+    {
+      "path": "outputs/factor_analysis/plan.md",
+      "bytes": 3702,
+      "sha256": "6dc20254829793ab3f5a8dc1c5f318c4da8465b5d9ba7ed1a318bb047e343275",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/report.md",
+      "bytes": 15200,
+      "sha256": "a9bbefe3a69f49f0649b03884bd57b83fa5fae7f9881c0ecb68695f67d2c0b12",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L1_1160.md",
+      "bytes": 9445,
+      "sha256": "cac52ca71ee7122aa9fb51606ca689634ba6d6c1d5f53f9d3f988d1a42cb48ac",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L1_1190.md",
+      "bytes": 9310,
+      "sha256": "01ae37d22bc6f5e263c48235729ed7453bce9746e85f63ab518d5d04e06b691e",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L1_1200.md",
+      "bytes": 9287,
+      "sha256": "73abbeaa13e0ed40b8aa64700cc217b2b0deef19b4cc9646bb842828714c02ff",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L1_1220.md",
+      "bytes": 9335,
+      "sha256": "1a294bfa004f9e81cc87795429c72b3c5e64506a4db17740e85ddc221c5f7c4c",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L1_1290.md",
+      "bytes": 9344,
+      "sha256": "b1c3d6cf8ed68d9666b9e8e0db73f1eb0b2e6bf1a1885a8eaa8986eb976a19a0",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L1_1340.md",
+      "bytes": 9343,
+      "sha256": "2d901e5834bfd7e13daed6fabab0819ec754b065918c158e822aecb862a1ba13",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L1_1440.md",
+      "bytes": 9347,
+      "sha256": "0a18925ea66fd2c5b6c0a5bff5e3d714881fabcf3c03341988a45932ca4079ef",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2190.md",
+      "bytes": 9323,
+      "sha256": "2da3d356f1de3a5e7fe30b50e15515e683ffa1d66117da78df205cabc04a2024",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2210.md",
+      "bytes": 9351,
+      "sha256": "e4f53b05d79f0dfc74acaa47d731b88a9ce67a253c501ff0df00539b908431e9",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2220.md",
+      "bytes": 9449,
+      "sha256": "e5b1deceb6f8d49c27498ed1dd86f58c7e2e5030c86c76fc96111b1a63bec38c",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2230.md",
+      "bytes": 9312,
+      "sha256": "b2340b0f926c8cb1ced197f5f8bf1a86a15ad501fcf8b601548267ed9275fac2",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2280.md",
+      "bytes": 9340,
+      "sha256": "3044b4e28b52eb29fb69a1a6d3bf179a83af6c8beac3860f78c6e7854d038310",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2320.md",
+      "bytes": 9315,
+      "sha256": "bbda782d77f8ed8382e933bcec404b679b335c8b3f3752ad2ab0dd6a498263d8",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2350.md",
+      "bytes": 9319,
+      "sha256": "4bd20c5b1cb65cd05632e517fc4618e87a937016030774da432aab3ba7efe77a",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2370.md",
+      "bytes": 9312,
+      "sha256": "669854d9cc8e5ddf34e7617fe12f90c2b2ce7c947cfac620daffe8f3e26455e8",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2390.md",
+      "bytes": 9279,
+      "sha256": "121edb6afad0a768063dee2e476c6555f1c58298b59b44b81e3107fd011cfe38",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/station_reports/DG_L2_2410.md",
+      "bytes": 9271,
+      "sha256": "e76288cd4995f3f2ad7cde1c0344b3658c76edcda18907774aa21ea24a057c8d",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/factor_analysis/visual_review_contact_sheet.png",
+      "bytes": 258791,
+      "sha256": "cb2d2d98940e488e17fb9e54a03a2badf9530f1faa1a278a684f9351d73ce921",
+      "reason": "검토용 축소 미리보기: 검증 완료"
+    },
+    {
+      "path": "outputs/inspection_candidates/plan.md",
+      "bytes": 3220,
+      "sha256": "dd79217bbd97a4f0bf191a51f4d8f903b5e609f13ddd34eb73f04d0e94700ee4",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/inspection_candidates/report.md",
+      "bytes": 8682,
+      "sha256": "3708d23fe039eaf557d2219544f9e05c3f70ed24362646b9dcce5df38ac53a7c",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/management_proposal.md",
+      "bytes": 5241,
+      "sha256": "f5eec1bf6b9e94fec80cdff18fa9249691e91b548bd40756ec1aed45c22a7372",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/plan.md",
+      "bytes": 4162,
+      "sha256": "82ddf6826c39d81b64771a2171fa9a0e51c79adb014a4c51127804e71d43d6f8",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/report.md",
+      "bytes": 10183,
+      "sha256": "b0172e34a033667e3bdc9bfdba64816be0305b9de5bbb6f3c65368e83c757610",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L1_1160.md",
+      "bytes": 6062,
+      "sha256": "167e1f2f38c5fc233210290d8e5c5845608dd004be73ce1c5c09396f09963b48",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L1_1190.md",
+      "bytes": 6212,
+      "sha256": "3d75522ceca88345d22fc389fab70d37a960fc71c9afdb14a4a9a5a19da5774e",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L1_1200.md",
+      "bytes": 6014,
+      "sha256": "8dfe1850fafb4ef46c1c5228ffebe6467fb55991864e040b983fb63bbf8a4f39",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L1_1220.md",
+      "bytes": 6104,
+      "sha256": "2eb3fc76ce79cd3190fcbee39a136d10ce61103bdac777960b7a875285a03ca3",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L1_1290.md",
+      "bytes": 5966,
+      "sha256": "46b8d438257d966befc144b85a06c66f1fcd67ed0b15ccca7038a4f1e6083d7b",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L1_1340.md",
+      "bytes": 6089,
+      "sha256": "e04826a37a0ddaeaaa7411fbec9885fd8b9ecc2598e0a4e2ce17800a6f921d02",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L1_1440.md",
+      "bytes": 5970,
+      "sha256": "afde2f0df4c910c5cef044b41234b9279534ce6c75c11683cc167137f791b543",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2190.md",
+      "bytes": 6067,
+      "sha256": "b692afd89c9a8bbd4f1df6481974d7f6565d92de5279e50c84252331fa81855b",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2210.md",
+      "bytes": 6097,
+      "sha256": "ad820f2a7efd24aeaf13fca5121ed7f4ea97e5a1f0a9d19b790c69cc6d0506a4",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2220.md",
+      "bytes": 6095,
+      "sha256": "5b60e80c23f1fc5bdd6b83b7e132b0148d49458c6ad094f494fd2876e9eb50cb",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2230.md",
+      "bytes": 6014,
+      "sha256": "9381c227b5f61b185f61dfdeb4b7fbb6fc8ebb3890613ea2e07cfad18aa196de",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2280.md",
+      "bytes": 5979,
+      "sha256": "926a4da0d2699665dd52edb5b6463690bd9b737272b4b8e915ff8eb1ded38677",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2320.md",
+      "bytes": 5959,
+      "sha256": "df761ef93bff50e98bf0d991c99ae7afb1208b91b849e7cf749fcd0234ee4f31",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2350.md",
+      "bytes": 5929,
+      "sha256": "089d9e640fed2ac19b5ef38ddbc1a10d1dc84adf14ac84908169ef1e079ca340",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2370.md",
+      "bytes": 6075,
+      "sha256": "d42db29ae6b1a6f87616965924518a2884d7e8f739ef6af66d470c91668a453d",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2390.md",
+      "bytes": 5969,
+      "sha256": "26fccf6f319edab539c27bc598e368f9951a5d0d450024f01bf1272f0d7a4952",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "outputs/recent_validation_management/station_reports/DG_L2_2410.md",
+      "bytes": 5950,
+      "sha256": "f660dfbe8abc9e9f2ad0bcebba646c985e40173731e6d4c491270633e41d3fe3",
+      "reason": "중복 단계별 보고서·계획·역별 문서: 통합 보고서로 대체"
+    },
+    {
+      "path": "분석계획서.md",
+      "bytes": 28268,
+      "sha256": "acbd81cdf37b1b0bac3f79d2bed6b6b05badc799d5c815a1c5fee5adae11dd4b",
+      "reason": "초기 분석계획: 현재 방법·진행상황과 통합, 원문 백업"
+    }
+  ],
+  "protected_output_sha256": {
+    "outputs/basic_patterns/validation.json": "228a9f76f9afc900dceb461ebde9d5049d5baa95cb439783fda6f68d7d33974a",
+    "outputs/extended_factors/validation.json": "2d297f17ce957f1b01a9d7e29abe2a1995e5c11739fc07d1e6a94bdd86c3a46a",
+    "outputs/factor_analysis/validation.json": "f369a4574222373fd33183f0ec9470e28e8c02724f56588ee401cb43c61f678a",
+    "outputs/inspection_candidates/validation.json": "ceefb91d8f329d8146b1e1a0b72c7711a596cb254da7b6d6ab251667cb3998fb",
+    "outputs/recent_validation_management/validation.json": "f425d519138df4a82c5f6c900f37cd15de894718ffb3b4041c945457f1dcb909",
+    "outputs/basic_patterns/figures/01_monthly_coverage.png": "80a7b99f8f315d160d09d2cf66d708ea05382905efefc33033435b0020c031eb",
+    "outputs/basic_patterns/figures/01_monthly_coverage.svg": "a0a4ceec7360fb5c3137d51bfc1fbd4a4585cf63d48140217cb0531c082fbf16",
+    "outputs/basic_patterns/figures/02_hourly_median.png": "a5f133b2d4ba612ebd0693ccccf82a57a0796ac8dcdc7f2e803781691c9b9808",
+    "outputs/basic_patterns/figures/02_hourly_median.svg": "dff9a7e7d22efed72fafdbecdd714b8a0e2e5850ecc5ebca9e9870a79e34a47e",
+    "outputs/basic_patterns/figures/03_monthly_median.png": "7bccefec775a386e94aff0ad43d4286747050dc8216ec952b1e703343d3db98c",
+    "outputs/basic_patterns/figures/03_monthly_median.svg": "696a848c75b3639f4a4e9b8b0d48d7d21057a7f2d9cb04bf4f13af426b2ac3ba",
+    "outputs/basic_patterns/figures/04_station_distribution.png": "cf67df76760cf128465e9d42a8f174fbe5dc4ff1c13d746cce0d4bf7cb170315",
+    "outputs/basic_patterns/figures/04_station_distribution.svg": "b7edb7d3bdf750b8b70a0ca9b2c9463679fbd53aa1f90f502308fabdda06a4f2",
+    "outputs/basic_patterns/figures/05_example_1_DG_L2_2220.png": "5cc6ea697aeada00f72562ffb414c226198704e9b152aa174eab1b9c46a8aa1c",
+    "outputs/basic_patterns/figures/05_example_1_DG_L2_2220.svg": "759c8be9fa9ec505748863fbc4a01aeb6e970798f089591aa2d8e26432c512d4",
+    "outputs/basic_patterns/figures/05_example_2_DG_L1_1150.png": "397616902fc20d537f3a155a7692dfb2b3379d18e5ca69887f8933485193a2b6",
+    "outputs/basic_patterns/figures/05_example_2_DG_L1_1150.svg": "4eba13037fd905dde453f63106a61b34992a3030892d4277f234b98bd2a1d733",
+    "outputs/basic_patterns/figures/05_example_3_DG_L2_2350.png": "83db6e6441bcc0cb3452bcec17c61a0290e6c06c835e890d40ef981dbb147530",
+    "outputs/basic_patterns/figures/05_example_3_DG_L2_2350.svg": "f36181133b5faa22eeb58c6f5090a6c43cc67cc56b1f89f3544cfea97a52db9c",
+    "outputs/basic_patterns/tables/indoor_quality_flags.csv": "58b59cec828aa461aad6bb9ed7118e2ae2adbab948f10cc87ade7969b5c0cd36",
+    "outputs/basic_patterns/tables/outdoor_match_status.csv": "c8ff3b43b15440a6c350880fa778df8d9f836d6f87e63aede1a581bfaee95d53",
+    "outputs/basic_patterns/tables/ridership_match_status.csv": "32a2ecb5d125baa0efa2620391310282edd9daf105b6a262324bf14164952eb6",
+    "outputs/basic_patterns/tables/station_comparison_2022_2024.csv": "0655099cf3df8acf8bdc806fef749ffc1dc8a8292e316081f2ccf116eb9c4671",
+    "outputs/basic_patterns/tables/station_hour_2022_2024.csv": "89471d7aae6b4d81561b772bd125cbca6b1f515decc8c63f4d3f096721faf414",
+    "outputs/basic_patterns/tables/station_month_quality_and_concentration.csv": "96b7584c157bd01ba60799e450ccfe1f725cdc65a8e1981132953348836e82e9",
+    "outputs/basic_patterns/tables/status_by_station.csv": "678112c51e23def7f1675e5d064881e35596cbbdcec9a5022ecdb3cdcec57fd8",
+    "outputs/basic_patterns/tables/status_by_year.csv": "e046abc9bf37d66bbd4e9f138669079b8f15b4e3ed6372bb624e1a66d3444cca",
+    "outputs/basic_patterns/tables/summary.json": "f43f0aa7c75f1638f37f7f44cccc0dad05d47fbebd5a84bb8cf548dccb84ea1e",
+    "outputs/extended_factors/figures/00_common_comparison.png": "473454a04883e38c9c32c5e3ebfbd41a90f9bb049cae3e4fb24b09d99f98704e",
+    "outputs/extended_factors/figures/00_common_comparison.svg": "0e245edd37f02f93773e622908c91572cfff9ac1baec6f368cbf81620814f258",
+    "outputs/extended_factors/figures/station_DG_L1_1160.png": "31cb5c650efbc94e1ad30a0faad6b5095c0823b95a58f32b68d6bd80283b9aaa",
+    "outputs/extended_factors/figures/station_DG_L1_1160.svg": "d703e7b121fb6426e276ffe9799f5817ab149d6f2e1e92dbf530b97599af4652",
+    "outputs/extended_factors/figures/station_DG_L1_1190.png": "0063d07255b04af4eb491e6501627de7ff2ea7b0e16b6eeb365a69bc4f1abbc6",
+    "outputs/extended_factors/figures/station_DG_L1_1190.svg": "3f7570322bd49a231c2ffbc028312f1719ecbebfcf08b5c4c5427ef8b936f19f",
+    "outputs/extended_factors/figures/station_DG_L1_1200.png": "c1dcce723c366fa7d3a27d65dadc61a2384510cb22a986c3fb24cc55a098630a",
+    "outputs/extended_factors/figures/station_DG_L1_1200.svg": "c65f13a3e1546be0dea0b5a0452181620481c476fa13e236552fd0431912d80e",
+    "outputs/extended_factors/figures/station_DG_L1_1220.png": "43c8d5e6b389a3e80d1cfbfbe736897be64a6c225fc35b8e8b715baa73d252a4",
+    "outputs/extended_factors/figures/station_DG_L1_1220.svg": "03e1c611ccb8354bc02eb2e53db73ec4627a058a09c6a50b6b0f326cd9f0d87a",
+    "outputs/extended_factors/figures/station_DG_L1_1290.png": "aa2cdc3b4e0558a543c961eedddc832990dd6c7f74d9243915d0605b626358e2",
+    "outputs/extended_factors/figures/station_DG_L1_1290.svg": "a6e23d6cc61f2b330aca39104b54383d38cf9825cc78eda775add29b6749a1fd",
+    "outputs/extended_factors/figures/station_DG_L1_1340.png": "02c514697f88c9603047341f5f1ed6b0d75363accd308467d048b695393c27d5",
+    "outputs/extended_factors/figures/station_DG_L1_1340.svg": "abfd625d61c371a3d5763024df7bb974b8ac96b30f942810a30bd23948f81171",
+    "outputs/extended_factors/figures/station_DG_L1_1440.png": "5225bade44ffb369cbd6b2b6749b7243594723a4b6b80bdcb8582c70f6f95975",
+    "outputs/extended_factors/figures/station_DG_L1_1440.svg": "593720521eb65d271f30d3098aa4047f6c8a2d9556ddfe37d7f5a131092db1e3",
+    "outputs/extended_factors/figures/station_DG_L2_2190.png": "2095078211177bb62cee5b8cb62655e208a2cb952485481096ac38ef3e8e7743",
+    "outputs/extended_factors/figures/station_DG_L2_2190.svg": "897f7313eef85f23b53b77427e77ff9294100abcdabcf56a135fa3eb83c02b2a",
+    "outputs/extended_factors/figures/station_DG_L2_2210.png": "494d7748472b600ad6b43424c2d833a34e814d4df30b932c1d3ff8fc5fbd63b6",
+    "outputs/extended_factors/figures/station_DG_L2_2210.svg": "cbd5eee403d8dd2266390d86aa95e162ccff7f9c3231116b1671af9260995573",
+    "outputs/extended_factors/figures/station_DG_L2_2220.png": "09eb41315ae0facfab3e701b7ff68498f4d4b634a77884a7ffbcf011100563ed",
+    "outputs/extended_factors/figures/station_DG_L2_2220.svg": "c9f3215b9447a673597dbfc0953849c505d507b0d9ce1cf3e32614fb4525bed7",
+    "outputs/extended_factors/figures/station_DG_L2_2230.png": "e3738b2d8ba5813c2641fdd67f2d22f49537db531a102e411fd83dd2c86ab416",
+    "outputs/extended_factors/figures/station_DG_L2_2230.svg": "6e12f1e4792556f4f58a4a5c0393dcb50daa70b079c15ebd02e9dc1189c0d3af",
+    "outputs/extended_factors/figures/station_DG_L2_2280.png": "a961615e58b2075dbe60c48722f4aff1a024a42381ecd6c883ac27302d2ef52d",
+    "outputs/extended_factors/figures/station_DG_L2_2280.svg": "4a2b69ec6de5c1c4c2eb343945a6d71204235dd036fa10e88a1552481fcf5949",
+    "outputs/extended_factors/figures/station_DG_L2_2320.png": "6b0c809ec41da773d2099a62e43ebe224d9763ce70ed1d007c70b0e842722f05",
+    "outputs/extended_factors/figures/station_DG_L2_2320.svg": "8e10b01ca7da82903612b062dab203a17405792da91a9ebd76acef61f05d8927",
+    "outputs/extended_factors/figures/station_DG_L2_2350.png": "633ac5c89bbc6d7c330c1527c3ac70e89eb1912d72375249c90b155a0364ab6f",
+    "outputs/extended_factors/figures/station_DG_L2_2350.svg": "12c940b2edd9f9c6f43dcf13d3635c61c6e5fedca03555949ceb7894363f55d4",
+    "outputs/extended_factors/figures/station_DG_L2_2370.png": "520e7cdcb69e938e50bbeba17ecf58f8408e44bed66307810a9ffff7b3a2e75c",
+    "outputs/extended_factors/figures/station_DG_L2_2370.svg": "25e0c282f32e5134970694b23aa601abe65b3610b3ad6c6757950395bdd71648",
+    "outputs/extended_factors/figures/station_DG_L2_2390.png": "f56fe4def33ac41fa6f484288520c63644ed429075577ac94d52ac95339820c1",
+    "outputs/extended_factors/figures/station_DG_L2_2390.svg": "1d1cdeb4b137b26c92ff80338db519289e3bf3c07fae52baec33fea29fe32526",
+    "outputs/extended_factors/figures/station_DG_L2_2410.png": "4b0811f8bbd6c73a947475c6a8fb16e0d20af520e81ce9914825691d5afb91aa",
+    "outputs/extended_factors/figures/station_DG_L2_2410.svg": "33ae95d8e4a865e3730619fda770b9479be45d2b7f9c3e8deda512158d4fa7cc",
+    "outputs/extended_factors/tables/adjusted_profiles.csv": "15f3949708e5617fe9b2124602ef0b9709c2fc7f155f267df30b79bd8a0fe191",
+    "outputs/extended_factors/tables/candidate_changes.csv": "fafffc5097debff9b45d7e3a5051a183dfac38afa421801b0dc06087efb934d4",
+    "outputs/extended_factors/tables/coefficients.csv": "85657917334ea4d6f1c3f0b2d14914b774b2b4bfb6371084b053433605347fd3",
+    "outputs/extended_factors/tables/conditional_partial_r2.csv": "620e26729397b0158738076edd50b11605ed2947b85a3f6a89577e1e2f0b3d3d",
+    "outputs/extended_factors/tables/effect_contrasts.csv": "5787ea1bf5901c31feb63ba4162508355e1b2f64f07c136c8f2dd7f250742289",
+    "outputs/extended_factors/tables/matched_coverage.csv": "33336d84684d1431699badbc6bafd9c9b4828974b7ac05fa0c7099b45ba5bd2c",
+    "outputs/extended_factors/tables/model_fit.csv": "37b867979d66443299b6944a882abd5c8077d7f32df3906122657e6c5668eace",
+    "outputs/extended_factors/tables/updated_hypotheses.csv": "ed8accc39590d0d8114f4c6d3f10c7e62a07efc07fd8807dbae3eb843e73935a",
+    "outputs/extended_factors/tables/weather_coverage.csv": "4aef1ab7bfa2006210e4ee37f7100c1a648755964b9b7d4e9106954185a6ae20",
+    "outputs/extended_factors/tables/week_block_cv_folds.csv": "458f0d0df90e5f6bd3e5cdadb7e161cbbaeb7388c59205b407f92046a6ca7452",
+    "outputs/extended_factors/tables/week_block_cv_summary.csv": "b12fc11b3c8fda5b5dab2174e6bec91f504d3ec08a415a87dc3686b62621a9cd",
+    "outputs/extended_factors/tables/winsor_direction_changes.csv": "05f334de8082ebc31bc3a7a2f5ff4267771943ad2c8d9566cda236d528eab709",
+    "outputs/factor_analysis/tables/adjusted_profiles.csv": "03d0ce45d2b507fa9e1b8a42f5ed1ea73e903734c92b8e512978dcbe611262a8",
+    "outputs/factor_analysis/tables/adjusted_station_levels.csv": "dd8851ca7b59808b1ab7cff0887201bbdfa9cd88d3c597e62f34b28a7928c670",
+    "outputs/factor_analysis/tables/all_station_absent_dates.csv": "2c8e6a0a0be927185e2cb34d0def76325579748bb36aaf9361095dba97daec6a",
+    "outputs/factor_analysis/tables/candidate_factor_summary.csv": "8165fcaa394f564e62d186620da791022f67ad31b0769476dc1e178d0994f622",
+    "outputs/factor_analysis/tables/coefficients.csv": "f98a5f8978b93c7b0bbdc70157f4fb6637f61b8e97e4838cf239a643dcf478bf",
+    "outputs/factor_analysis/tables/conditional_partial_r2.csv": "db215dc1648f6a4c07ba7ee97a03b625da86aed2b6d83be9bd751989022f191f",
+    "outputs/factor_analysis/tables/effect_contrasts.csv": "232cc9acec89429c53f501bb6b5bf966a12d7a8bfe8c402de5712016ed12785e",
+    "outputs/factor_analysis/tables/full_day_descriptors.csv": "b18fbbe0a4fb961501cb07fb62ea0474c00573ca8fb9e3ac992fe3e6014b6abb",
+    "outputs/factor_analysis/tables/hypotheses.csv": "5b94d3c08ceeb4b3d22aeda2f806f9620f0d1ecd966e51ae1c08bafa98592fb8",
+    "outputs/factor_analysis/tables/model_fit.csv": "f60427b14076e9eb3cbcbc9c86fcf019736498d5e66855e29bc8217134b76014",
+    "outputs/factor_analysis/tables/partial_adjustment_bins.csv": "b447b06f660f4744ce0475e9ba315d35ad483eda734f9a330037063ff57f3d65",
+    "outputs/factor_analysis/tables/raw_hour.csv": "b44b5801cd4285ea65ac0b1a175c9ec28cab885889f1a9552b8b25a0b50e3406",
+    "outputs/factor_analysis/tables/raw_month.csv": "14d66b46f7acc3fbee61d04891b72d112ac6e7fc9b2d9046f609b2cde34c4865",
+    "outputs/factor_analysis/tables/raw_weekday.csv": "5e70f674c0b24e9e7b3b31e2d48557ce05be9d2de7525012b99f1e194c64ef3c",
+    "outputs/factor_analysis/tables/raw_year.csv": "284fe15c36f675e1057be77baa9bc9c170c0bb6e637b9ba98eb3aa1dc169d90c",
+    "outputs/factor_analysis/tables/sample_coverage.csv": "cedf08e5a8491ff45ae99a4468accdb4907626fd1eb10498892fad49ed400b19",
+    "outputs/factor_analysis/tables/station_starting_clues.csv": "db26cd8b5cc374a5fd3304bdad476c3de34902bdc38ee0ed19db1f76e702c5b9",
+    "outputs/factor_analysis/tables/winsor_direction_changes.csv": "f7fc883e2ee6641727944c569395eedd9e194f79cc4dce7d25fbe6709a03903d",
+    "outputs/inspection_candidates/figures/01_candidate_evidence.png": "b1dfbbfaf827a15f711094301e7732b9ca8013097ad5a2ea4d358dffec151294",
+    "outputs/inspection_candidates/figures/01_candidate_evidence.svg": "4fa6c9b69a337cd0d17879951a54d634ee2c533db31236dfee79e1df45b18411",
+    "outputs/inspection_candidates/figures/02_concentration_and_usage.png": "afd2bba46c4213daf947c0c5ddeb95bccfd4d5bf4003f2ff7636a4601af158cd",
+    "outputs/inspection_candidates/figures/02_concentration_and_usage.svg": "50c1c9915b037fb8dade20e942ba8f6e0908086eeaef8f806ecfbeb38c8a971c",
+    "outputs/inspection_candidates/tables/all_station_metrics.csv": "b1ea301a43c249f8177b34be28811dfa742fccd849ac3e3db0085aa7f4f40cc9",
+    "outputs/inspection_candidates/tables/annual_levels.csv": "641dd48d19e02dd3b13d791c2bf68b93797effd0db19d625546d526b5606bcfe",
+    "outputs/inspection_candidates/tables/candidate_reasons.csv": "d56bc0dcab2db4647378ed8c18727cf3615a668056719fb7854fdff4e2937c6e",
+    "outputs/inspection_candidates/tables/monthly_persistence.csv": "bdd1187c882bcdf354b3370da9f7a3254ac2ea6ad8bdfecf9328c6e80df43c86",
+    "outputs/inspection_candidates/tables/selection_thresholds.csv": "11193ab35b11fbf0185cb322ec502dfa76c379e8e5292586fbe81bf2b7fc8d96",
+    "outputs/inspection_candidates/tables/sensitivity.csv": "73e594a3b8b1d4111af124853df13a9ffa3120dd425fa687edb39a93f7fdea77",
+    "outputs/recent_validation_management/tables/all_station_period_metrics.csv": "0770a99dc5bde30bed9a6ee92832166457e7aab418ffa8b00d19081acca819b7",
+    "outputs/recent_validation_management/tables/balanced_calendar_comparison.csv": "fb11bcaa229f3f791a9bcf16d361feecb1ad382b4271137f5e091e454511863f",
+    "outputs/recent_validation_management/tables/balanced_changes.csv": "f9a6b1907c5fc0b37a44c17af3cfa0d4c671734273eaff761adf145dd4fad412",
+    "outputs/recent_validation_management/tables/candidate_recent_status.csv": "e7d7edb4395168373a3403e9be076cb6b1b8695422db8ba03947257f2e8ab571",
+    "outputs/recent_validation_management/tables/candidate_threshold_sensitivity.csv": "1dcc3bc87b85691fc8e782a7d3b9ff1889d05afa6748cab0678f329b80cbf9f4",
+    "outputs/recent_validation_management/tables/contemporaneous_thresholds.csv": "f196f186fe694ea5697c1c6f7b509542d4369935ae928b2c2ed9866e6229391f",
+    "outputs/recent_validation_management/tables/data_request_checklist.csv": "a4957039bde7e04ffe724a20f00dc8a8d4849396f33417c695ae49bceeeb3d9d",
+    "outputs/recent_validation_management/tables/frozen_reference_thresholds.csv": "924a3ab50377e1b5a182c500ea1ef93f7512314b892ab0da5afcdc933e08325e",
+    "outputs/recent_validation_management/tables/management_hypotheses.csv": "62548f018c0ceb9bb164afeab246b2f1f2353ede65e7cd86c2f88efdf693dc8d",
+    "outputs/recent_validation_management/tables/management_summary.csv": "c927dd946b006ce9f34e6e1abe2694538fbab42972b9667ca50090ffe4dcc9f5",
+    "outputs/recent_validation_management/tables/quality_flags.csv": "d9cccde1d0e86df3e719bc4ef5ee1f83bcbd802140b560243aff48428cbf6330",
+    "outputs/recent_validation_management/tables/recent_source_hour_patterns.csv": "217689850158755cd6b021f317885f6fb7976157c5e75b0bcf794ff80561566f",
+    "outputs/recent_validation_management/tables/reference_month_cuts.csv": "66579324e8089f1045a8c6e6d46b3fe4e2c51b7280a609149298b8c318faee85",
+    "outputs/recent_validation_management/tables/station_month_validation.csv": "81ab71663e2bffbe6c54ea1313b080d59d7f2757be1654097e81ff5c2e7ad365"
+  },
+  "preserved": "all raw/prepared/merged data, all Python scripts, all CSV/JSON evidence tables, initial and latest figures",
+  "git_action": "none",
+  "new_visualizations": 0,
+  "removed_count": 102,
+  "after_output_file_count": 120,
+  "report_verified": true,
+  "verification": {
+    "protected_output_files_verified": 118,
+    "backup_entries_verified": 102,
+    "removed_targets_absent": true,
+    "markdown_links_valid": true,
+    "station_summaries": 0,
+    "management_target_stations": 6,
+    "representative_hypotheses": 0,
+    "stage_reports_remaining": 0,
+    "new_visualizations": 0,
+    "raw_data_or_code_deleted": false
+  }
+}

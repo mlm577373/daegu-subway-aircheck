@@ -1,0 +1,322 @@
+{
+  "years": [
+    2022,
+    2023,
+    2024
+  ],
+  "matched_hours_overlap": {
+    "stations_ratio_above_one": 45,
+    "stations_above_one_all_years": 14,
+    "stations_below_one_all_years": 8,
+    "median_ratio": 1.0376529465041897,
+    "largest_ratios": [
+      {
+        "analysis_station_id": "DG_L2_2380",
+        "n": 20153,
+        "high_n": 1217,
+        "usage": 3367873.0,
+        "high_usage": 292400.0,
+        "high_hour_share": 0.06038803155857689,
+        "high_usage_share": 0.08682037594648016,
+        "excess_ratio": 1.4377083290463555,
+        "years_above_one": 2,
+        "years_below_one": 1,
+        "name": "2호선 대공원(대구)"
+      },
+      {
+        "analysis_station_id": "DG_L2_2310",
+        "n": 20099,
+        "high_n": 1595,
+        "usage": 13517417.0,
+        "high_usage": 1328650.0,
+        "high_hour_share": 0.07935718194935071,
+        "high_usage_share": 0.0982917076539105,
+        "excess_ratio": 1.238598766229434,
+        "years_above_one": 3,
+        "years_below_one": 0,
+        "name": "2호선 경대병원"
+      },
+      {
+        "analysis_station_id": "DG_L2_2210",
+        "n": 20432,
+        "high_n": 4246,
+        "usage": 10165835.0,
+        "high_usage": 2544731.0,
+        "high_hour_share": 0.20781127642913078,
+        "high_usage_share": 0.25032188698714863,
+        "excess_ratio": 1.204563540961239,
+        "years_above_one": 3,
+        "years_below_one": 0,
+        "name": "2호선 성서산업단지"
+      },
+      {
+        "analysis_station_id": "DG_L1_1300",
+        "n": 20501,
+        "high_n": 1253,
+        "usage": 21090385.0,
+        "high_usage": 1536477.0,
+        "high_hour_share": 0.06111896980635091,
+        "high_usage_share": 0.0728520128959239,
+        "excess_ratio": 1.1919705637504676,
+        "years_above_one": 2,
+        "years_below_one": 1,
+        "name": "1호선 반월당"
+      },
+      {
+        "analysis_station_id": "DG_L2_2290",
+        "n": 20207,
+        "high_n": 758,
+        "usage": 10132748.0,
+        "high_usage": 428339.0,
+        "high_hour_share": 0.037511753352798535,
+        "high_usage_share": 0.0422727378594632,
+        "excess_ratio": 1.1269198072904656,
+        "years_above_one": 2,
+        "years_below_one": 1,
+        "name": "2호선 청라언덕"
+      },
+      {
+        "analysis_station_id": "DG_L1_1270",
+        "n": 20375,
+        "high_n": 2146,
+        "usage": 10406165.0,
+        "high_usage": 1231512.0,
+        "high_hour_share": 0.10532515337423314,
+        "high_usage_share": 0.11834446215296414,
+        "excess_ratio": 1.1236106320441026,
+        "years_above_one": 3,
+        "years_below_one": 0,
+        "name": "1호선 영대병원"
+      }
+    ],
+    "lowest_ratios": [
+      {
+        "analysis_station_id": "DG_L2_2200",
+        "n": 20215,
+        "high_n": 488,
+        "usage": 13223919.0,
+        "high_usage": 272540.0,
+        "high_hour_share": 0.02414048973534504,
+        "high_usage_share": 0.020609624121260876,
+        "excess_ratio": 0.8537367860887062,
+        "years_above_one": 0,
+        "years_below_one": 3,
+        "name": "2호선 계명대"
+      },
+      {
+        "analysis_station_id": "DG_L1_1330",
+        "n": 20300,
+        "high_n": 2194,
+        "usage": 8618924.0,
+        "high_usage": 848004.0,
+        "high_hour_share": 0.10807881773399015,
+        "high_usage_share": 0.09838861556268509,
+        "excess_ratio": 0.9103413381597572,
+        "years_above_one": 0,
+        "years_below_one": 3,
+        "name": "1호선 칠성시장"
+      },
+      {
+        "analysis_station_id": "DG_L1_1230",
+        "n": 20421,
+        "high_n": 2258,
+        "usage": 16151135.0,
+        "high_usage": 1633868.0,
+        "high_hour_share": 0.11057244992899466,
+        "high_usage_share": 0.10116118774315241,
+        "excess_ratio": 0.9148860119144887,
+        "years_above_one": 0,
+        "years_below_one": 3,
+        "name": "1호선 서부정류장"
+      },
+      {
+        "analysis_station_id": "DG_L2_2170",
+        "n": 20438,
+        "high_n": 77,
+        "usage": 6373533.0,
+        "high_usage": 22280.0,
+        "high_hour_share": 0.003767491926803014,
+        "high_usage_share": 0.0034957063845123264,
+        "excess_ratio": 0.9278603517748432,
+        "years_above_one": 0,
+        "years_below_one": 3,
+        "name": "2호선 다사"
+      },
+      {
+        "analysis_station_id": "DG_L1_1360",
+        "n": 20421,
+        "high_n": 2349,
+        "usage": 6485221.0,
+        "high_usage": 696376.0,
+        "high_hour_share": 0.11502864698104892,
+        "high_usage_share": 0.10737891584573601,
+        "excess_ratio": 0.9334971649577587,
+        "years_above_one": 0,
+        "years_below_one": 3,
+        "name": "1호선 동구청"
+      },
+      {
+        "analysis_station_id": "DG_L1_1150",
+        "n": 20285,
+        "high_n": 2854,
+        "usage": 8794865.0,
+        "high_usage": 1185727.0,
+        "high_hour_share": 0.14069509489770768,
+        "high_usage_share": 0.13482037529854068,
+        "excess_ratio": 0.9582450290577776,
+        "years_above_one": 0,
+        "years_below_one": 3,
+        "name": "1호선 설화명곡"
+      }
+    ]
+  },
+  "components_rank_correlation": {
+    "frequency": {
+      "frequency": 1.0,
+      "persistence": 0.28992740471869327,
+      "overlap": 0.944192377495463
+    },
+    "persistence": {
+      "frequency": 0.28992740471869327,
+      "persistence": 1.0,
+      "overlap": 0.30003889032927133
+    },
+    "overlap": {
+      "frequency": 0.944192377495463,
+      "persistence": 0.30003889032927133,
+      "overlap": 1.0
+    }
+  },
+  "runs_all": {
+    "observed_fragments": 71760,
+    "long_fragments": 14867,
+    "long_fraction_of_fragments": 0.20717670011148273,
+    "high_hours": 146115,
+    "high_hours_in_long_fraction": 0.49538377305547,
+    "high_usage_in_long_fraction": 0.4882224925056125,
+    "fully_bounded_events": 69117,
+    "bounded_long_fraction": 0.20621554754980684,
+    "bounded_hours_in_long_fraction": 0.4926928870770834
+  },
+  "runs_by_year": {
+    "2022": {
+      "observed_fragments": 11595,
+      "long_fragments": 1577,
+      "long_fraction_of_fragments": 0.13600689952565762,
+      "high_hours": 20048,
+      "high_hours_in_long_fraction": 0.4123603351955307,
+      "high_usage_in_long_fraction": 0.3955563253433366,
+      "fully_bounded_events": 11077,
+      "bounded_long_fraction": 0.13433240046944117,
+      "bounded_hours_in_long_fraction": 0.4070684758598927
+    },
+    "2023": {
+      "observed_fragments": 28883,
+      "long_fragments": 5918,
+      "long_fraction_of_fragments": 0.20489561333656475,
+      "high_hours": 58243,
+      "high_hours_in_long_fraction": 0.4878182785914187,
+      "high_usage_in_long_fraction": 0.47616230636020346,
+      "fully_bounded_events": 27898,
+      "bounded_long_fraction": 0.20384973833249695,
+      "bounded_hours_in_long_fraction": 0.48464908359409925
+    },
+    "2024": {
+      "observed_fragments": 31282,
+      "long_fragments": 7372,
+      "long_fraction_of_fragments": 0.23566268141423183,
+      "high_hours": 67824,
+      "high_hours_in_long_fraction": 0.526421325784383,
+      "high_usage_in_long_fraction": 0.5183522088339083,
+      "fully_bounded_events": 30142,
+      "bounded_long_fraction": 0.23482184327516423,
+      "bounded_hours_in_long_fraction": 0.5245969599263013
+    }
+  },
+  "runs_examples": [
+    {
+      "observed_fragments": 722,
+      "long_fragments": 214,
+      "long_fraction_of_fragments": 0.296398891966759,
+      "high_hours": 2254,
+      "high_hours_in_long_fraction": 0.7249334516415262,
+      "high_usage_in_long_fraction": 0.7521966498706251,
+      "fully_bounded_events": 702,
+      "bounded_long_fraction": 0.292022792022792,
+      "bounded_hours_in_long_fraction": 0.7209409594095941,
+      "analysis_station_id": "DG_L1_1430",
+      "name": "1호선 신기"
+    },
+    {
+      "observed_fragments": 607,
+      "long_fragments": 218,
+      "long_fraction_of_fragments": 0.35914332784184516,
+      "high_hours": 1673,
+      "high_hours_in_long_fraction": 0.6766288105200239,
+      "high_usage_in_long_fraction": 0.6438754100762336,
+      "fully_bounded_events": 600,
+      "bounded_long_fraction": 0.3566666666666667,
+      "bounded_hours_in_long_fraction": 0.6747279322853688,
+      "analysis_station_id": "DG_L2_2180",
+      "name": "2호선 대실"
+    },
+    {
+      "observed_fragments": 1705,
+      "long_fragments": 493,
+      "long_fraction_of_fragments": 0.28914956011730203,
+      "high_hours": 4059,
+      "high_hours_in_long_fraction": 0.6159152500615915,
+      "high_usage_in_long_fraction": 0.5922523573133146,
+      "fully_bounded_events": 1635,
+      "bounded_long_fraction": 0.2886850152905199,
+      "bounded_hours_in_long_fraction": 0.6138946280991735,
+      "analysis_station_id": "DG_L2_2280",
+      "name": "2호선 반고개"
+    },
+    {
+      "observed_fragments": 929,
+      "long_fragments": 276,
+      "long_fraction_of_fragments": 0.29709364908503766,
+      "high_hours": 2241,
+      "high_hours_in_long_fraction": 0.606425702811245,
+      "high_usage_in_long_fraction": 0.5988183593519395,
+      "fully_bounded_events": 909,
+      "bounded_long_fraction": 0.30033003300330036,
+      "bounded_hours_in_long_fraction": 0.6094459582198002,
+      "analysis_station_id": "DG_L1_1390",
+      "name": "1호선 해안"
+    },
+    {
+      "observed_fragments": 1111,
+      "long_fragments": 268,
+      "long_fraction_of_fragments": 0.24122412241224123,
+      "high_hours": 2650,
+      "high_hours_in_long_fraction": 0.6041509433962264,
+      "high_usage_in_long_fraction": 0.650797488995167,
+      "fully_bounded_events": 1082,
+      "bounded_long_fraction": 0.24306839186691312,
+      "bounded_hours_in_long_fraction": 0.6080769230769231,
+      "analysis_station_id": "DG_L1_1280",
+      "name": "1호선 교대(대구)"
+    },
+    {
+      "observed_fragments": 1114,
+      "long_fragments": 365,
+      "long_fraction_of_fragments": 0.3276481149012567,
+      "high_hours": 2684,
+      "high_hours_in_long_fraction": 0.5953800298062594,
+      "high_usage_in_long_fraction": 0.5769595921499265,
+      "fully_bounded_events": 1093,
+      "bounded_long_fraction": 0.3266239707227813,
+      "bounded_hours_in_long_fraction": 0.5943683409436834,
+      "analysis_station_id": "DG_L2_2190",
+      "name": "2호선 강창"
+    }
+  ],
+  "limitations": [
+    "descriptive association, not causal effect",
+    "high-run fragments can be truncated by missing observations; bounded-event sensitivity shown separately",
+    "pooled contributions are weighted by high hours or ridership; not average station effect",
+    "usage overlap ratio uses exactly matched indoor and ridership hours, not 24-hour concentration frequency"
+  ]
+}

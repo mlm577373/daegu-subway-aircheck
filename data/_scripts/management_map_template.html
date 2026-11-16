@@ -1,0 +1,67 @@
+<div id="daegu-timing">
+<style>
+#daegu-timing{display:grid;gap:16px}#daegu-timing .layout{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:20px}#daegu-timing svg{width:100%;height:540px}#daegu-timing .legend{display:flex;gap:16px;flex-wrap:wrap}#daegu-timing .dot{width:12px;height:12px;border-radius:50%;display:inline-block;margin-right:6px}#daegu-timing .station-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px}#daegu-timing button{text-align:left;white-space:normal}#daegu-timing .detail{display:grid;gap:12px;align-content:start}@media(max-width:850px){#daegu-timing .layout{grid-template-columns:1fr}#daegu-timing svg{height:440px}}
+</style>
+<div><h2>대구 승강장 미세먼지 종합 관리 위험도</h2><p>2022~2024년 1~12월 · 자료가 있는 57개 측정지점 · 건강 위해 확률이 아닌 상대적인 관리 지표</p></div>
+<div class="viz-controls">
+<label class="form-label">보는 관점 <select class="form-select" id="dg-mode"><option value="composite">종합 관리 위험도</option><option value="frequency">고농도 발생 빈도</option><option value="persistence">고농도의 다음 시간 유지</option><option value="overlap">고농도와 이용 겹침</option></select></label>
+<label class="form-label">요일 <select class="form-select" id="dg-day"><option>전체</option><option>평일</option><option>주말</option></select></label>
+<label class="form-label">시간대 <select class="form-select" id="dg-slot"><option>전체</option><option>아침 06~09시</option><option>낮 10~15시</option><option>저녁 16~19시</option><option>밤 20~23시</option></select></label>
+<label class="form-label">역 <select class="form-select" id="dg-station"></select></label>
+<button class="btn" id="dg-plus">확대 +</button><button class="btn" id="dg-minus">축소 −</button><button class="btn" id="dg-reset">전체 보기</button>
+</div>
+<p id="dg-explanation"></p><p id="dg-count" aria-live="polite"></p><div id="dg-legend" class="legend"></div>
+<p class="text-small">요일·시간대 필터는 반복 관리 시점이 있는 역을 강조합니다. 색은 3년 연중 지표로 유지됩니다.</p>
+<div class="layout"><div><svg id="dg-map" role="img" aria-label="57개 지점의 종합 관리 위험도 지도"></svg><p class="text-small">북 ↑ · 역 대표 좌표 · 외부 지도 연결 불필요 · 확대 시 선택 역 중심</p></div><div id="dg-detail" class="card detail" aria-live="polite"></div></div>
+<details><summary>57개 지점의 점수와 관리 확인 시점</summary><div id="dg-list" class="station-list"></div></details>
+<details><summary>지표를 읽는 방법·관측 조건·출처</summary>
+<p>종합점수는 발생 빈도·다음 시간 유지·이용 겹침의 세 비율을 충분한 자료가 있는 2022~2024년 지점들 사이의 백분위 점수로 바꾼 뒤 같은 비중(각 1/3)으로 평균한 값입니다. 동일한 값에는 동률의 중간 순위를 적용합니다. 0~100점은 이 표본 내 상대적인 관리 관심 정도이며, 건강 위해 확률·법정 위험등급·예측 결과가 아닙니다. 빈도와 이용 겹침이 서로 관련돼 같은 특성을 중복 반영할 수 있고 가중치는 실증 검증되지 않았습니다.</p>
+<p>자료는 윤일을 포함한 2022~2024년 1~12월만 사용합니다. 전체 농도 관측률 75% 이상, 지속 비율은 다음 시간 평가 가능 고농도 20회 이상, 이용 겹침은 05~23시 기대 시간 대비 실내·승하차 동시 관측률 75% 이상과 승하차 합계 양수가 필요합니다. 세 관점 중 하나라도 부족하면 종합점수를 만들지 않습니다. 고농도 경계 43.15 μg/m³는 탐색 기준이며 법정 기준이 아닙니다. 상태 공백은 잠정 유효 표본입니다.</p>
+<p>관리 시점은 평일/주말 × 4개 시간대를 나머지 06~23시와 비교합니다. 해당 구간 관측률 75%·유효 100시간·고농도 10시간·고농도 비율 5% 이상이며, 나머지보다 3%p 이상·1.25배 이상 높고 4개 분기 중 2개 이상에서 차이 방향이 같아야 그 해를 통과합니다. 세 해 중 두 해 이상 통과하면 반복 시점으로 표시합니다. 공휴일 별도 구분은 없으며 '집중 시점 없음'은 관리 불필요라는 뜻이 아닙니다.</p>
+<p>기상 조건은 검토했으나 관리 시점 구분의 추가 이점은 크지 않았습니다. 통계적 비유의를 입증한 것은 아닙니다. 별도 예측 모델은 만들지 않았습니다. 환기·청소 실행 효과도 확인하지 않았습니다.</p>
+<p>반월당은 호선별 별도 지점이며 전체 도시철도 역을 조사한 결과가 아닙니다. 현충로·율하는 이상 좌표 대신 지도용 잠정 대체 위치를 사용했고 원본·실외 매칭은 유지했습니다. 농도: InAir; 이용: 승하차 합계(고유 인원·실제 노출량 아님); 결합: same_label_v1. 배경: <a href="https://github.com/southkorea/southkorea-maps/tree/master/kostat/2013">통계청 2013 경계 가공본</a>(현재 행정경계와 다를 수 있음).</p>
+</details></div>
+<script>__LIBRARIES__</script>
+<script>
+(()=>{
+const root=document.getElementById('daegu-timing'),stations=__STATIONS__,geometry=__GEOMETRY__;
+const q=s=>root.querySelector(s),svg=q('#dg-map'),ns='http://www.w3.org/2000/svg';
+const colors=['#27834b','#d08a24','#c84335','#8a98a3'];
+const modes={composite:{title:'종합 관리 위험도',cuts:[.33,.67],text:'얼마나 자주 높았는지, 다음 시간에도 유지됐는지, 이용과 겹쳤는지를 같은 비중으로 합친 0~100점입니다.'},frequency:{title:'고농도 발생 빈도',metric:'rate',cuts:[.05,.2],text:'유효 관측 시간 중 고농도가 나타난 시간의 비율입니다.'},persistence:{title:'고농도의 다음 시간 유지',metric:'continuation_rate',cuts:[.25,.5],text:'고농도를 관측하고 정확히 1시간 뒤에도 유효 관측이 있을 때, 그 시간에도 고농도였던 비율입니다. 사건별 지속시간은 아닙니다.'},overlap:{title:'고농도와 이용 겹침',metric:'usage_high_share',cuts:[.05,.2],text:'실내·이용 동시 관측 시간의 전체 승하차량 중 고농도 시간에 겹친 비중입니다. 실제 노출 인원이나 승객의 원인 효과는 아닙니다.'}};
+const mode=()=>modes[q('#dg-mode').value],value=s=>s.perspectives[q('#dg-mode').value];
+const pct=v=>v==null?'—':(v*100).toFixed(1)+'%',score=v=>v==null?'판단 유보':v.toFixed(1)+'점';
+const color=s=>{const v=value(s);return colors[v.available&&v.value!=null?mode().cuts.filter(c=>v.value>=c).length:3];};
+let selected=stations.filter(s=>s.risk_score!=null).sort((a,b)=>b.risk_score-a.risk_score)[0]||stations[0],zoom=1;
+q('#dg-station').innerHTML=stations.map(s=>'<option value="'+s.analysis_station_id+'">'+s.line+' '+s.name+'</option>').join('');
+function relevant(s){return s.chosen.some(c=>(q('#dg-day').value==='전체'||q('#dg-day').value===c.day)&&(q('#dg-slot').value==='전체'||q('#dg-slot').value===c.slot));}
+function el(tag,attrs,parent=svg){const n=document.createElementNS(ns,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,v);parent.append(n);return n;}
+function detail(){
+q('#dg-station').value=selected.analysis_station_id;
+let body='<h3>'+selected.line+' '+selected.name+'</h3><p>종합'+' 관리 위험도 '+score(selected.risk_score)+' · '+selected.level+'</p><p>'+selected.timing+'</p>';
+body+='<div class="table-responsive"><table class="table"><thead><tr><th>구성 관점</th><th>3년 실제 비율</th><th>환산 점수</th></tr></thead><tbody>';
+for(const key of ['frequency','persistence','overlap'])body+='<tr><td>'+modes[key].title+'</td><td>'+pct(selected.perspectives[key].value)+'</td><td>'+score(selected.risk_components[key])+'</td></tr>';
+body+='</tbody></table></div><details><summary>연도별 값과 관측량</summary><div class="table-responsive"><table class="table"><thead><tr><th>기간</th><th>고농도/유효 시간</th><th>다음 시간 유지/평가 가능</th><th>이용 겹침/전체 승하차량</th></tr></thead><tbody>';
+for(const p of selected.periods)body+='<tr><td>'+p.period+'<br>관측률 '+pct(p.coverage)+'</td><td>'+pct(p.rate)+'<br>'+p.high_n+'/'+p.n+'</td><td>'+pct(p.continuation_rate)+'<br>'+p.stay_high_n+'/'+p.transition_n+'</td><td>'+pct(p.usage_high_share)+'<br>'+Math.round(p.usage_high_total).toLocaleString()+'/'+Math.round(p.usage_total).toLocaleString()+'<br>동시 관측률 '+pct(p.usage_coverage)+'</td></tr>';
+body+='</tbody></table></div></details><details><summary>관리 시점 비교 근거</summary><div class="table-responsive"><table class="table"><thead><tr><th>구간·연도</th><th>고농도/유효 시간</th><th>해당/나머지 비율</th></tr></thead><tbody>';
+for(const c of selected.cells.filter(c=>(q('#dg-day').value==='전체'||c.day===q('#dg-day').value)&&(q('#dg-slot').value==='전체'||c.slot===q('#dg-slot').value)))body+='<tr><td>'+c.day+' '+c.slot+' '+c.period+(c.period_pass?' · 통과':'')+'</td><td>'+c.high_n+'/'+c.n+'<br>관측률 '+pct(c.coverage)+'</td><td>'+pct(c.rate)+' / '+pct(c.other_rate)+'</td></tr>';
+body+='</tbody></table></div></details><p class="text-small">'+selected.coordinate_note+(selected.coordinate_url?' <a href="'+selected.coordinate_url+'">위치 출처</a>':'')+'</p>';q('#dg-detail').innerHTML=body;
+}
+function draw(){
+svg.replaceChildren();const w=svg.clientWidth||680,h=svg.clientHeight||540;svg.setAttribute('viewBox','0 0 '+w+' '+h);
+const projection=d3.geoMercator().fitExtent([[24,35],[w-24,h-35]],{type:'MultiPoint',coordinates:stations.map(s=>[s.lon,s.lat])});projection.scale(projection.scale()*zoom);if(zoom>1)projection.center([selected.lon,selected.lat]).translate([w/2,h/2]);
+const path=d3.geoPath(projection),defs=el('defs',{}),clip=el('clipPath',{id:'dg-clip'},defs);el('rect',{width:w,height:h},clip);const g=el('g',{'clip-path':'url(#dg-clip)'});
+geometry.features.forEach(f=>{el('path',{d:path(f),fill:'var(--muted)','fill-opacity':.5,stroke:'var(--border)','stroke-width':1},g);let p=path.centroid(f);if(p.every(Number.isFinite))el('text',{x:p[0],y:p[1],fill:'var(--muted-foreground)','text-anchor':'middle','pointer-events':'none'},g).textContent=f.properties.name;});
+const all=q('#dg-day').value==='전체'&&q('#dg-slot').value==='전체';
+stations.forEach(s=>{let [x,y]=projection([s.lon,s.lat]);if(s.name==='반월당')x+=s.line==='1호선'?-7:7;const dot=el('circle',{cx:x,cy:y,r:s===selected?8:5.5,fill:color(s),opacity:all||relevant(s)?1:.25,stroke:s===selected?'var(--foreground)':'var(--background)','stroke-width':s===selected?2.5:1.5},g);el('title',{},dot).textContent=s.line+' '+s.name+' · 종합 '+score(s.risk_score)+' · '+s.timing;dot.addEventListener('click',()=>{selected=s;update();});if(s===selected)el('text',{x:x+12,y:y-12,fill:'var(--foreground)','paint-order':'stroke',stroke:'var(--background)','stroke-width':3},g).textContent=s.line+' '+s.name;});
+const labels=q('#dg-mode').value==='composite'?['낮은 편 <33점','중간 33~67점 미만','높은 편 ≥67점','판단 유보']:['<'+mode().cuts[0]*100+'%',mode().cuts[0]*100+'~'+mode().cuts[1]*100+'% 미만','≥'+mode().cuts[1]*100+'%','판단 유보'];
+q('#dg-legend').innerHTML=labels.map((t,i)=>'<span><span class="dot" style="background:'+colors[i]+'"></span>'+t+'</span>').join('');
+q('#dg-explanation').textContent=mode().text+' 과거 3년 전체 자료의 지점 간 상대 비교이며 현재 상황을 뜻하지 않습니다.';
+q('#dg-count').textContent='57개 지점 모두 표시 · 종합점수 산출 '+stations.filter(s=>s.risk_score!=null).length+'곳 · 선택 조건 반복 시점 '+stations.filter(relevant).length+'곳';
+}
+function update(){detail();draw();}
+for(const id of ['dg-mode','dg-day','dg-slot'])q('#'+id).addEventListener('change',update);
+q('#dg-station').addEventListener('change',e=>{selected=stations.find(s=>s.analysis_station_id===e.target.value);update();});q('#dg-plus').addEventListener('click',()=>{zoom=Math.min(8,zoom*1.5);draw();});q('#dg-minus').addEventListener('click',()=>{zoom=Math.max(1,zoom/1.5);draw();});q('#dg-reset').addEventListener('click',()=>{zoom=1;draw();});
+for(const s of stations){let b=document.createElement('button');b.className='btn';b.textContent=s.line+' '+s.name+' · '+score(s.risk_score)+' · '+s.timing;b.addEventListener('click',()=>{selected=s;update();});q('#dg-list').append(b);}
+new ResizeObserver(draw).observe(svg);update();
+})();
+</script>

@@ -1,0 +1,83 @@
+{
+  "analysis_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "grid_scenarios": 45,
+  "weight_range": [
+    0.2,
+    0.6
+  ],
+  "weight_step": 0.05,
+  "baseline_top10_overlap_range": [
+    7,
+    10
+  ],
+  "always_top10": [
+    {
+      "id": "DG_L1_1190",
+      "line": "1호선",
+      "name": "월배"
+    },
+    {
+      "id": "DG_L1_1340",
+      "line": "1호선",
+      "name": "신천"
+    },
+    {
+      "id": "DG_L2_2220",
+      "line": "2호선",
+      "name": "이곡"
+    },
+    {
+      "id": "DG_L2_2280",
+      "line": "2호선",
+      "name": "반고개"
+    },
+    {
+      "id": "DG_L2_2400",
+      "line": "2호선",
+      "name": "신매"
+    }
+  ],
+  "named_scenarios": [
+    {
+      "scenario": "동일 비중",
+      "frequency_weight": 0.3333333333333333,
+      "persistence_weight": 0.3333333333333333,
+      "overlap_weight": 0.3333333333333333,
+      "top10_common": 10,
+      "rank_correlation": 1.0,
+      "tier_changes": 0
+    },
+    {
+      "scenario": "발생 빈도 강조",
+      "frequency_weight": 0.5,
+      "persistence_weight": 0.25,
+      "overlap_weight": 0.25,
+      "top10_common": 7,
+      "rank_correlation": 0.988102572829278,
+      "tier_changes": 7
+    },
+    {
+      "scenario": "유지 강조",
+      "frequency_weight": 0.25,
+      "persistence_weight": 0.5,
+      "overlap_weight": 0.25,
+      "top10_common": 8,
+      "rank_correlation": 0.9607611145688889,
+      "tier_changes": 8
+    },
+    {
+      "scenario": "이용 겹침 강조",
+      "frequency_weight": 0.25,
+      "persistence_weight": 0.25,
+      "overlap_weight": 0.5,
+      "top10_common": 8,
+      "rank_correlation": 0.989497569401531,
+      "tier_changes": 6
+    }
+  ],
+  "limitation": "Weight sensitivity only; no proof of health risk, causality or robustness to concentration thresholds and missingness."
+}

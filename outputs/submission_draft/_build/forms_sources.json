@@ -1,0 +1,37 @@
+[
+  [
+    "승강장 시간별 PM2.5",
+    "환경부·한국환경공단 InAir",
+    "https://www.inair.or.kr/info/excel.html"
+  ],
+  [
+    "실외 대기질·측정소 위치",
+    "한국환경공단 AirKorea",
+    "https://www.airkorea.or.kr/web/last_amb_hour_data\nhttps://www.data.go.kr/data/15150453/fileData.do"
+  ],
+  [
+    "역별 시간대 승하차량 및 열차 시간표\n호선별·개편 전후 자료 통합",
+    "대구교통공사",
+    "https://www.data.go.kr/data/15002503/fileData.do\nhttps://www.data.go.kr/data/15065526/fileData.do\nhttps://www.data.go.kr/data/3033376/fileData.do\nhttps://www.dtro.or.kr/index.do?menu_id=00000289&menu_link=icms/bbs/selectBoardArticle.do?bbsId%3DBBS_00253&nttId=74097"
+  ],
+  [
+    "Global Hourly 기상 관측자료\n관측소 47143099999",
+    "미국 NOAA NCEI",
+    "https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database"
+  ],
+  [
+    "철도 역 위치 좌표",
+    "한국철도협회 철도산업정보센터 KRIC",
+    "https://data.kric.go.kr/rips/M_01_01/detail.do?id=213"
+  ],
+  [
+    "2022~2024년 월력요항·달력 자료",
+    "한국천문연구원",
+    "https://astro.kasi.re.kr/kor/life/post/calendarData?search_year=2024"
+  ],
+  [
+    "통계청 2013 행정경계 가공본\n지도 배경",
+    "통계청 원자료·southkorea-maps 가공",
+    "https://github.com/southkorea/southkorea-maps/tree/master/kostat/2013"
+  ]
+]
